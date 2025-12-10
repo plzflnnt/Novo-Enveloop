@@ -1,66 +1,175 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<a href="#" target="_blank">
+<!-- Você pode trocar este emoji por uma logo .png se tiver -->
+<img src="https://www.google.com/search?q=https://img.icons8.com/fluency/96/wallet.png" alt="Enveloop Logo" width="80">
+</a>
 </p>
 
-## About Laravel
+<h1 align="center">Enveloop</h1>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+<strong>Controle financeiro inteligente baseado no Método dos Envelopes.</strong>
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p align="center">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Laravel-11-FF2D20%3Fstyle%3Dfor-the-badge%26logo%3Dlaravel%26logoColor%3Dwhite" alt="Laravel 11">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/PHP-8.2-777BB4%3Fstyle%3Dfor-the-badge%26logo%3Dphp%26logoColor%3Dwhite" alt="PHP">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Tailwind-CSS-38B2AC%3Fstyle%3Dfor-the-badge%26logo%3Dtailwind-css%26logoColor%3Dwhite" alt="Tailwind CSS">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Alpine-JS-8BC0D0%3Fstyle%3Dfor-the-badge%26logo%3Dalpine.js%26logoColor%3Dwhite" alt="Alpine.js">
+</p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<p align="center">
+<a href="#-sobre">Sobre</a> •
+<a href="#-features">Funcionalidades</a> •
+<a href="#-tech-stack">Tecnologias</a> •
+<a href="#-arquitetura">Arquitetura</a> •
+<a href="#-instalação">Instalação</a>
+</p>
 
-## Learning Laravel
+🔖 Sobre
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+O Enveloop é uma aplicação Full-Stack desenvolvida para facilitar a gestão de orçamento pessoal. Diferente das planilhas comuns, ele utiliza a lógica do "Método dos Envelopes": o usuário define categorias (envelopes) e distribui seu saldo disponível entre elas, garantindo que o dinheiro tenha um destino antes mesmo de ser gasto.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+O projeto foi construído com foco em Clean Code, performance e uma interface mobile-first responsiva.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+📸 Screenshots
 
-## Laravel Sponsors
+<!-- DICA: Tire prints do seu projeto, suba na aba 'Issues' do GitHub ou no imgur, e cole os links aqui -->
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+<div align="center">
+<img src="https://www.google.com/search?q=https://placehold.co/800x400/e2e8f0/1e293b%3Ftext%3DDashboard%2BView" alt="Dashboard Screenshot" width="100%" style="border-radius: 8px; margin-bottom: 20px;">
+</div>
 
-### Premium Partners
+🚀 Features
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+💰 Gestão de Envelopes: Criação e personalização de categorias orçamentárias.
 
-## Contributing
+📊 Dashboard Interativo: Visão geral do saldo livre vs. saldo alocado.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+📉 Relatórios Mensais: Acompanhamento visual de gastos via gráficos (Chart.js).
 
-## Code of Conduct
+🔐 Autenticação Segura: Sistema completo de Login, Registro e Recuperação de senha.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+📱 100% Responsivo: Layout fluido adaptado para Desktop e Mobile.
 
-## Security Vulnerabilities
+🌓 Feedback Visual: Alertas de sucesso e erro em tempo real.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+🛠 Tech Stack
 
-## License
+Este projeto utiliza as tecnologias mais modernas do ecossistema PHP:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Categoria
+
+Tecnologias
+
+Back-end
+
+Laravel 11, PHP 8.2+
+
+Front-end
+
+Blade Templates, Tailwind CSS, Alpine.js
+
+Database
+
+MySQL (Produção), SQLite (Dev/Testes)
+
+Build Tools
+
+Vite, PostCSS
+
+DevOps
+
+Docker (Sail)
+
+🧠 Arquitetura e Destaques
+
+O código foi estruturado pensando em escalabilidade e manutenção, fugindo do padrão "Fat Controller".
+
+🔹 Service Layer Pattern
+
+A lógica de negócios complexa foi extraída dos Controllers e isolada em Camadas de Serviço:
+
+App\Services\BalanceService: Gerencia cálculos de saldo livre e alocações.
+
+App\Services\EnvelopeService: Lida com a lógica de movimentação entre envelopes.
+
+App\Services\ReportService: Prepara os dados para os relatórios mensais.
+
+🔹 Helpers e Traits
+
+Para evitar repetição de código (DRY):
+
+CurrencyHelper: Padronização de formatação monetária (BRL) em toda a aplicação.
+
+🔹 Segurança
+
+Proteção CSRF em todos os formulários.
+
+Validação robusta de Requests (LoginRequest, ProfileUpdateRequest).
+
+Sanitização de dados de entrada.
+
+⚡ Instalação
+
+Siga os passos abaixo para rodar o projeto localmente:
+
+Pré-requisitos
+
+PHP 8.2+
+
+Composer
+
+Node.js & NPM
+
+Passo a Passo
+
+Clone o repositório
+
+git clone [https://github.com/seu-usuario/novo-enveloop.git](https://github.com/seu-usuario/novo-enveloop.git)
+cd novo-enveloop
+
+
+Instale as dependências do PHP
+
+composer install
+
+
+Instale as dependências do Frontend
+
+npm install
+
+
+Configure o ambiente
+
+cp .env.example .env
+php artisan key:generate
+
+
+Configure o Banco de Dados
+
+Crie um banco de dados vazio (ex: enveloop).
+
+Ajuste as credenciais no arquivo .env.
+
+Rode as migrações e seeders (opcional):
+
+php artisan migrate --seed
+
+
+Inicie o servidor
+
+# Em um terminal:
+npm run dev
+
+# Em outro terminal:
+php artisan serve
+
+
+Acesse http://localhost:8000 e aproveite!
+
+Este projeto está sob a licença [MIT license](https://opensource.org/licenses/MIT).
+
+<p align="center">
+Feito com 💙 por <a href="https://zafalon.com">Paulo Neto</a>
+</p>
