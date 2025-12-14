@@ -179,11 +179,21 @@
     </div>
 
     <script>
+        // Mapping of visible transaction IDs to their encrypted values
+        const ENCRYPTED_FEED_IDS = @json(collect($feed->items())->mapWithKeys(function($t) { return [$t->id => Crypt::encryptString($t->id)]; })->toArray());
+
         function confirmDelete(id, name, value) {
             document.getElementById('deleteItemName').textContent = name;
             document.getElementById('deleteItemValue').textContent = 'R$ ' + value;
             
-            const deleteUrl = "{{ route('undo-earning', ['id' => ':id']) }}".replace(':id', btoa(id));
+            /*
+            TODO: a correção aplicada à criptografia dos IDs das transações deve ser revista. pois tem um backup com bota()
+            que não é compatível com Laravel Crypt::...
+            */
+            // Use encrypted id from the mapping when available, fallback to btoa(id)
+            const encrypted = ENCRYPTED_FEED_IDS[id] ?? null;
+            const idForRoute = encrypted ? encrypted : btoa(id);
+            const deleteUrl = "{{ route('undo-earning', ['id' => ':id']) }}".replace(':id', idForRoute);
             document.getElementById('deleteConfirmBtn').href = deleteUrl;
             
             document.getElementById('deleteModal').classList.remove('hidden');
