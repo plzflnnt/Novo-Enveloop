@@ -26,10 +26,10 @@
             </div>
         @endif
 
-        <div class="max-w-7xl mx-auto p-6 lg:p-8">
+        <div class="max-w-7xl mx-auto p-8">
             <div class="flex flex-col items-center">
                 <!-- Logo -->
-                <div class="text-center mb-8">
+                <div class="text-center mb-8 mt-16 md:mt-6">
                     <h1 class="text-7xl font-bold text-gray-900 mb-4">Envel∞p</h1>
                     <p class="text-xl text-gray-600 max-w-2xl">
                         Organize suas finanças com o método dos envelopes
@@ -65,12 +65,12 @@
                     <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
                         <div class="flex items-center justify-center w-12 h-12 bg-purple-100 rounded-lg mb-4">
                             <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8,14L16,14M6,21L18,21C19.097,21 20,20.097 20,19L20,13C20,11.903 19.097,11 18,11L6,11C4.903,11 4,11.903 4,13L4,19C4,20.097 4.903,21 6,21ZM12,11C14.333,11 16,9.194 16,7C16,4.806 14.333,3 12,3C9.667,3 8,4.806 8,7C8,9.194 9.667,11 12,11Z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-lg font-semibold text-gray-900 mb-2">100% Seguro</h3>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Economize para seus objetivos</h3>
                         <p class="text-gray-600 text-sm">
-                            Seus dados são criptografados e protegidos. Controle total sobre suas informações financeiras.
+                            Criar envelopes específicos para metas de longo prazo ou uma poupança de emergência.
                         </p>
                     </div>
                 </div>
