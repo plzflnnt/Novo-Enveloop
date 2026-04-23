@@ -103,7 +103,7 @@
 
                 <!-- Footer -->
                 <div class="mt-16 text-center text-sm text-gray-500">
-                    <p>Desenvolvido com ❤️ para ajudar você a organizar suas finanças</p>
+                    <p>Desenvolvido com ❤️ por <a href="https://zafalon.com" target="_blank">Paulo Neto</a></p>
                 </div>
             </div>
         </div>
