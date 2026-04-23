@@ -16,17 +16,17 @@
 <a href="#-features">Funcionalidades</a> •
 <a href="#-stack">Tecnologias</a> •
 <a href="#-arquitetura">Arquitetura</a> •
-<a href="#-instalação">Instalação</a>
-</p>
+<a href="#-instalacao">Instalação</a>
+</p>    
 
-Sobre
+<h3 id="-sobre">Sobre</h3>
 
 O Enveloop é uma aplicação Full-Stack desenvolvida para facilitar a gestão de orçamento pessoal. Diferente das planilhas comuns, ele utiliza a lógica do "Método dos Envelopes": o usuário define categorias (envelopes) e distribui seu saldo disponível entre elas, garantindo que o dinheiro tenha um destino antes mesmo de ser gasto.
 
 O projeto foi construído com foco em Clean Code, performance e uma interface mobile-first responsiva.
 
 
-Features
+<h3 id="-features">Features</h3>
 
  Gestão de Envelopes: Criação e personalização de categorias orçamentárias.
 
@@ -34,7 +34,7 @@ Features
 
  Relatórios Mensais: Acompanhamento visual de gastos via gráficos.
 
-Stack
+<h3 id="-stack">Stack</h3>
 
 Este projeto utiliza as tecnologias mais modernas do ecossistema PHP:
 
@@ -62,7 +62,7 @@ DevOps
 
 Docker (Sail)
 
-Arquitetura e Destaques
+<h3 id="-arquitetura">Arquitetura</h3>
 
 O código foi estruturado pensando em escalabilidade e manutenção, fugindo do padrão "Fat Controller".
 
@@ -90,7 +90,7 @@ Validação robusta de Requests (LoginRequest, ProfileUpdateRequest).
 
 Sanitização de dados de entrada.
 
-Instalação
+<h3 id="-instalacao">Instalação</h3>
 
 Siga os passos abaixo para rodar o projeto localmente:
 
